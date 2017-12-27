@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.appiot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stony Brook IOT"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivitytwo" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivitytwo" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivitytwo" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".HomeScreentwo" />
+        <activity android:name=".NavigationDrawer" />
+        <activity android:name=".DisplayObjectstwo" />
+        <activity android:name=".DisplayObjects" />
+        <activity android:name=".Connectobject" />
+        <activity android:name=".objectone" />
+        <activity android:name=".DisplayDeviceFunction" />
+        <activity android:name=".DisplayButtonObjects" />
+        <activity android:name=".DeviceFunctiontwo" />
+        <activity android:name=".DisplayDeviceFunctionTwo" />
+        <activity android:name=".DisplayDeviceFunctionThree" />
+        <activity android:name=".DisplayDeviceFunctionFour" />
+        <activity android:name=".DisplayButtonObjectsTwo" />
+        <activity android:name=".DisplayDeviceFunctionProjector" />
+        <activity android:name=".DisplayDeviceFunctionLabDoor" />
+        <activity android:name=".DisplayStaffFan" />
+        <activity android:name=".DisplayStaffLight" />
+        <activity android:name=".DisplayStaffAC" />
+        <activity android:name=".DisplayStaffHeater" />
+        <activity android:name=".DisplayStaffLabDoor" />
+        <activity android:name=".LoginActivityThree" />
+        <activity android:name=".MainActivitythree" />
+        <activity android:name=".MainActivityThree" />
+        <activity android:name=".ProfileActivityThree" />
+        <activity android:name=".HomeScreenThree" />
+        <activity android:name=".DisplayObjectsThree" />
+        <activity android:name=".DisplayButtonObjectsThree" />
+        <activity android:name=".DisplayDeviceFunctionHeater" />
+        <activity android:name=".DisplayStudentPrinter" />
+        <activity android:name=".DisplayStudentProjector" />
+        <activity android:name=".DisplayStudentLabDoor" />
+        <activity android:name=".search"></activity>
+    </application>
+
+</manifest>

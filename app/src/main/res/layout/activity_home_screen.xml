@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.appiot.HomeScreen"
+    android:background="@color/Black">
+
+
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/activity_navigation_drawer_drawer"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/discover"
+            android:layout_width="121dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="188dp"
+            android:onClick="onDiscoverClick"
+            android:text="Discover"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/displayObject"
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginTop="188dp"
+            android:onClick="onDisplayObjectClick"
+            android:text="Display Devices"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintLeft_toRightOf="@+id/discover"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.appiot.DisplayButtonObjectsThree"
+    android:orientation="vertical"
+    android:background="@color/Black">
+
+
+    <Button
+        android:id="@+id/FreyHallOneZeroOne"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:onClick="onFreyHallOneZeroOne"
+        android:text="Frey Hall 101 - Fan"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/FreyHallOneZeroOneLight"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="onFreyHallOneZeroOnelight"
+        android:text="Frey Hall 101 - Light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/FreyHallTwoZeroOneAirConditioning"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="onFreyHallTwoZeroOneAirConditioning"
+        android:text="Frey Hall 201 - Air Conditioning "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/FreyHallTwoZeroTwoHeater"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="onFreyHallTwoZeroTwoHeater"
+        android:text="Frey Hall 202 - Heater "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/FreyHallTwoZeroThreeLabDoor"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="onFreyHallTwoZeroThreeLabDoor"
+        android:text="Frey Hall 203 - Lab Door "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/onBack"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        android:drawableTop="@drawable/arrowleft"
+
+        android:onClick="onBack" />
+
+
+</LinearLayout>
